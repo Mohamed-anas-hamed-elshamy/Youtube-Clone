@@ -39,6 +39,7 @@ header {
     justify-content: space-between;
     height: 56px;
     padding: 0 16px;
+    user-select: none;
 }
 
 .toggle-menu {
@@ -88,7 +89,7 @@ header {
     cursor: pointer;
 }
 
-.right-section a {
+.right-section a:not(:last-child) {
     color: black;
     margin-right: 18px;
 }
